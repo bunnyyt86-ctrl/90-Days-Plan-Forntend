@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Selctor syntax</title>
+    <style>
+        /*this is single comment */
+        /*
+        this is multi line comment selctor
+        slector,selctor1{
+          proprty: Value;
+           color: red;
+        }
+        */
+        ol {
+            list-style: circle;
+            color: blue;
+            font-style: italic;
+        }
+
+        ul {
+            color: brown;
+            list-style: number;
+            font-style: stroke;
+        }
+
+        /* p,li {
+            color: rgb(42, 165, 69);
+        } */
+        .inputField {
+            background-color: brown;
+
+        }
+
+        #LastName {
+            background-color: blue;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        div p {
+            color: rgb(205, 135, 50)
+        }
+
+        div>p {
+            color: brown;
+        }
+
+        div+p {
+            color: green;
+        }
+
+        div~p {
+            color: rgb(189, 225, 46);
+        }
+
+        li:nth-child(odd) {
+            color: black;
+        }
+
+        .inputField:not(:disabled) {
+            background-color: black;
+        }
+        .inputField{
+            background-color: chocolate;
+        }
+        #LastName{
+            background-color: chartreuse;
+        }
+    </style>
+
+</head>
+
+<body>
+    <p>This is sample selctor sample</p>
+    <ol>
+        <li>java</li>
+        <li>python</li>
+        <li>C shark</li>
+    </ol>
+    <ul>
+        <li>Aiml</li>
+        <li>datali</li>
+        <li>core</li>
+    </ul>
+    <h1> This is Header 1</h1>
+
+    <label for="FirstName"></label>
+    <input type="text" placeholder="enter first name" class="inputField" id="FirstName" />
+    <label for="LastName"></label>
+    <input type="text" placeholder="enter last name" class="inputField" id="LastName" />
+    <label for="range"></label>
+    <input type="range" min="10" max="200" value="40 " id="range">
+
+    <button>submit</button>
+
+    <div>
+        <p>This is undre Div 1</p>
+    </div>
+    <div>
+        <p>This also Div under 2</p>
+    </div>
+    <p>But This is not undre the div lets see</p>
+
+    <p>But This is not undre the div lets see</p>
+</body>
+
+</html>

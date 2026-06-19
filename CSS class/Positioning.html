@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positioning</title>
+    <style>
+        .div1 {
+            margin: 250px;
+            position: relative;
+            border: 1px solid bisque;
+        }
+
+        .div2 {
+            border: 1px solid blue;
+            position: absolute;
+            margin: 50px;
+        }
+
+        .div3 {
+            border: 2px solid green;
+            position: fixed;
+            margin: 50px;
+        }
+
+        .div4 {
+            border: 2px solid red;
+            margin: 200px;
+            position: static;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <p> Relative The element is positioned relative to its normal position, so left:20px adds 20
+            pixels to the element's LEFT position
+        </p>
+    </div>
+
+    <div class="div2">
+        <p>Absolute The element is positioned relative to its normal position, so left:20px adds 20
+            pixels to the element's LEFT position
+        </p>
+    </div>
+
+    <div class="div3">
+        <p>Fixed The element is positioned relative to its normal position, so left:20px adds 20
+            pixels to the element's LEFT position
+        </p>
+    </div>
+
+    <div class="div4">
+        <p> Static The element is positioned relative to its normal position, so left:20px adds 20
+            pixels to the element's LEFT position
+        </p>
+    </div>
+</body>
+
+</html>

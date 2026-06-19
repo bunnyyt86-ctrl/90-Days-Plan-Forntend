@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="submit" method="post">
+
+        <fieldset>
+            <legend> Personal Information</legend>
+
+                <label for="">First name</label>
+                <input type="text" name="First name" id="first name"><br>
+
+                <label for="">Last name</label>
+                <input type="text" name="Last name" id="Last name"><br>
+
+                <label for="uploadresumeId">upload resume</label>
+                <input type="file" name="uploadresume" id="uploadresumeId"><br>
+
+                <label for="passwordId">password</label>
+                <input type="password" name="password" id="passwordId"><br>
+
+                <label for="dateofbirth">Dob</label>
+                <input type="date" name="Dob" id="dateofbirth"><br>
+
+                <label for="course1">java</label>
+                <input type="checkbox" name="course1" id="course1" value="java"><br>
+
+                <label for="course2">Digital Marketing</label>
+                <input type="checkbox" name="course2" id="course2" value="Digital Marketing"><br>
+
+                <input type="color" name="color" id="color">
+
+                <label for="courseid">slect course</label>
+                <select name="courses" id="courseid">
+                    <optgroup>
+                        <option value="java">java</option>
+                        <option value="dotnet">dotnet</option>
+                        <option value="python">python</option>
+                        <option value="cshark">cshark</option>
+                    </optgroup>
+                </select>
+
+<textarea name="message" rows="20" cols="30"></textarea>
+                <button>submit</button>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

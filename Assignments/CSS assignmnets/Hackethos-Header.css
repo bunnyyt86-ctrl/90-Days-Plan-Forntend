@@ -1,0 +1,37 @@
+header {
+    position: fixed;
+    background-color: #AC94F2;
+    height: 5rem;
+    width: 101vw;
+    margin-top: -1rem;
+    margin-left: -1rem;
+}
+
+header span img {
+    height: 140px;
+    width: auto;
+    margin-top: -2rem;
+}
+
+header span {
+    margin-left: 1rem;
+}
+
+.header-name {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 130px;
+    margin-top: -85px;
+    color: black;
+    font-weight: bold;
+}
+.flex-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -1.5rem;
+    font-size: 20px;
+    color: #ff6600;
+}

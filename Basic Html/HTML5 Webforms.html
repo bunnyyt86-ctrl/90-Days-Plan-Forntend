@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Html5 webforms</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <form>
+        <label for="firstname">First Name</label>
+        <input type="text" name="First name" required id="Firt Name" placeholder="Enter name">
+        <input type="number" required min="18" max="35" placeholder="enter age"><br>
+        <input type="tel" pattern="[0-9]{10}" placeholder="phone number"><br>
+        <input type="date" placeholder="select date">
+        <input type="datetime-local" placeholder="timeline">
+        <input list="courses" placeholder="select courses">
+        <p contenteditable="false">this is para which editable</p>
+        <datalist id="courses">
+            <option value="Java Full Stack">Java Full Stack</option>
+            <option value="Python Full Stack">Python Full Stack</option>
+            <option value="Donet Full Stack">Donit Full Stack</option>
+            <option value="MERN Full Stack">MERN Full Stack</option>
+            <option value="MEAN Full Stack">MEAN Full Stack</option>
+
+        </datalist>
+
+
+        <button>submit</button>
+
+    </form>
+</body>
+</html>

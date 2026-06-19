@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-items: center;
+
+
+    }
+    div{
+        background-color: rgb(237,199,155);
+        border: 2px solid rgb(99,163,117);
+        padding: 10px;
+        color: black;
+        margin: 1rem;
+
+    }
+    .dflex{
+        flex-basis: 150px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="dflex">item 1</div>
+        <div class="dflex">item 2</div>
+        <div class="dflex">item 3</div>
+        <div class="dflex">item 4</div>
+        <div class="dflex">item 5</div>
+        <div class="dflex">item 6</div>
+        <div class="dflex">item 7</div>
+        <div class="dflex">item 8</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>Box model in css</title>
+    <style>
+        #div1 {
+            padding: 20px 40px 60px 80px;
+            border-top: 20px solid yellow;
+            border-right: 20px solid blue;
+            border-bottom: 30px solid rebeccapurple;
+            border-left: 80px solid red;
+            box-sizing: content-box;
+            margin-top: 40px;
+            margin-right: 20px;
+            margin-left: 80px;
+            margin-bottom: 20px;
+        }
+
+        #div2 {
+            border: 20px solid brown;
+            border-radius: 10px;
+        }
+
+        #firstname {
+            outline: dotted;
+            border: solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1">
+        <p>This is division sentence 1</p>
+        <p>This is division sentence 1</p>
+        <p>This is division sentence 1</p>
+        <p>This is division sentence 1</p>
+    </div>
+
+    <div id="div2">
+        <p>This is division sentence 1</p>
+        <p>This is division sentence 1</p>
+        <p>This is division sentence 1</p>
+        <p>This is division sentence 1</p>
+    </div>
+    <label for="firstname">First Name</label>
+    <input type="text" placeholder="enter first name" id="firstname">
+</body>
+
+</html>
